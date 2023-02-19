@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mdt-ui-react/static/css/main.acfe52ad.chunk.css",
-    "main.js": "/mdt-ui-react/static/js/main.e3aee92c.chunk.js",
-    "main.js.map": "/mdt-ui-react/static/js/main.e3aee92c.chunk.js.map",
+    "main.js": "/mdt-ui-react/static/js/main.5bf2914f.chunk.js",
+    "main.js.map": "/mdt-ui-react/static/js/main.5bf2914f.chunk.js.map",
     "runtime-main.js": "/mdt-ui-react/static/js/runtime-main.1691362d.js",
     "runtime-main.js.map": "/mdt-ui-react/static/js/runtime-main.1691362d.js.map",
     "static/css/2.a7fbd9aa.chunk.css": "/mdt-ui-react/static/css/2.a7fbd9aa.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.a7fbd9aa.chunk.css",
     "static/js/2.ebac2266.chunk.js",
     "static/css/main.acfe52ad.chunk.css",
-    "static/js/main.e3aee92c.chunk.js"
+    "static/js/main.5bf2914f.chunk.js"
   ]
 }
