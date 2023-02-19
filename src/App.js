@@ -25,7 +25,7 @@ const App = () => {
   return (
     <DataProvider>
       <Router>
-        <div className="App" style={{ 'display': showUI === true ? "" : "none" }}>
+        <div className="App" style={{ 'display': '' /*showUI === true ? "" : "none"*/ }}>
           <CloseButton className="CloseButton--App" onClick={hideUI} />
           <Sidebar className="sidebar">
             <PageLink exact to="/" icon="home">
