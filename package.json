@@ -1,0 +1,70 @@
+{
+  "name": "mdt",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "clsx": "^1.1.1",
+    "codemirror": "^5.59.0",
+    "date-fns": "^2.16.1",
+    "dotenv": "^16.0.0",
+    "node-sass": "^4.14.1",
+    "react": "^17.0.1",
+    "react-codemirror2": "^7.2.1",
+    "react-dom": "^17.0.1",
+    "react-markdown": "^5.0.3",
+    "react-router-cache-route": "^1.12.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "remark-gfm": "^1.0.0",
+    "use-debounce": "^5.2.0",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build:dev": "dotenv -e .env.development react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:webpack": "webpack"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "react-hooks/exhaustive-deps": 0
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^6.5.1",
+    "dotenv-cli": "^4.1.1",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "2.2.1",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

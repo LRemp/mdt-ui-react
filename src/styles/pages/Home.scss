@@ -1,0 +1,105 @@
+.Home {
+  position: relative;
+  width: 95%;
+  left: 2.5%;
+  height: 58vh;
+  overflow-x: hidden;
+
+  &__title {
+    position: relative;
+    color: #444;
+    font-weight: bolder;
+    font-size: 1.2vh;
+    text-align: center;
+  }
+  &__content {
+    position: relative;
+    top: 5vh;
+    display: flex;
+  }
+  &__column {
+    width: 100%;
+  }
+  &__header {
+    background-color: #c9c9c9;
+    width: 100%;
+    color: #444;
+    font-weight: bolder;
+    font-size: 1.3vh;
+    display: block;
+    padding: 1.66vh 1vh;
+    text-align: center;
+  }
+
+  .ActiveWarrants {
+    margin-top: 1vh;
+    padding: 1vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 37vh;
+
+    &__item {
+      &:nth-child(odd) {
+        padding: 1vh;
+        border-top: solid 1px #444;
+      }
+
+      &:nth-child(even) {
+        padding: 1vh;
+        background-color: #c9c9c9;
+        border-top: solid 1px #444;
+      }
+
+      &:first-child {
+        padding: 1vh;
+        border: none;
+      }
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+    }
+    &__item-title {
+      font-weight: bold;
+    }
+    &__item-icons {
+      position: relative;
+      float: right;
+      right: 1vh;
+      font-size: 2vh;
+    }
+    &__item-summary {
+      font-size: 1.2vh;
+    }
+    &__item-issuer {
+      font-weight: bolder;
+    }
+  }
+
+  .Bulletin {
+    padding: 1vh 2vh;
+    font-size: 1.5vh;
+    height: 37vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    &__edit-button {
+      position: absolute;
+      top: 0.9vh;
+      right: 1vh;
+    }
+    &__edit {
+      padding: 1vh;
+      margin-top: 1vh;
+      font-size: 1.5vh;
+    }
+    &__textarea {
+      width: 34vh;
+      height: 34vh;
+      resize: none;
+      background-color: #c9c9c9;
+      color: #444;
+      outline: none;
+    }
+  }
+}

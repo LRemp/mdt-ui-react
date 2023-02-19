@@ -1,0 +1,23 @@
+.EditHistory {
+  
+  &__title {
+    margin: 1vh 0;
+    color: #444;
+    font-size: 1.8vh;
+  }
+
+  &__placeholder {
+    margin-top: 0.7vh;
+    text-align: center;
+    color: #333;
+    font-size: 1vh;
+    font-style: italic;
+  }
+
+  &__item {
+    font-size: 1.1vh;
+    color: #333;
+    margin-top: 0.7vh;
+    transition: 0.3s;
+  }
+}

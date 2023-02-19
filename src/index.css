@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap);
+
+body {
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 0.7em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #444;
+  outline: 1px solid #313131;
+}

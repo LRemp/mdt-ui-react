@@ -1,0 +1,45 @@
+.Collapsible {
+  padding: 1vh;
+
+  transition: 0.3s;
+
+  &__container {
+    overflow: hidden;
+
+    width: 100%;
+    max-height: 0;
+
+    transition: max-height 0.2s ease-out;
+
+    background-color: #a8a8a8;
+  }
+
+  &__label {
+    font-size: 1.5vh;
+    font-weight: bolder;
+  }
+
+  &--active,
+  &:hover {
+    color: #444;
+    background-color: #a8a8a8;
+  }
+
+  &:after {
+    float: right;
+
+    margin-right: 1vh;
+
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+
+    color: white;
+
+    font-size: 1vh;
+  }
+
+  &--active {
+    &:after {
+      content: '\2796'; /* Unicode character for "minus" sign (-) */
+    }
+  }
+}

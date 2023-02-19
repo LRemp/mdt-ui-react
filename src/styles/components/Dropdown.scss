@@ -1,0 +1,43 @@
+.Dropdown {
+    position: relative;
+    color: #ffffff;
+    padding: 8px 16px;
+    background-color: #444;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+    width: 16.5vh;
+
+    &__list {
+        position: absolute;
+    }
+
+    &__element {
+        color: #ffffff;
+        padding: 8px 16px;
+        background-color: #444;
+        border: 1px solid transparent;
+        border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+        cursor: pointer;
+        user-select: none;
+        width: 16.5vh;
+
+        &:hover {
+            background-color: rgb(46, 46, 46) !important;
+        }
+    }
+
+    &__selected {
+        background-color: rgb(59, 59, 59) !important;
+    }
+
+    &__placeholder {
+
+        &__arrow {
+            float: right;
+            padding-top: 2px;
+            top: 50%;
+        }
+    }
+}

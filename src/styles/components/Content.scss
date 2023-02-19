@@ -1,0 +1,19 @@
+.Content {
+  &__header {
+    grid-row: 1;
+    grid-column: 2;
+    height: 5vh;
+
+    &-content {
+      position: relative;
+      left: 2.5%;
+      top: 1vh;
+      color: #444;
+      font-size: 1.5vh;
+
+      i {
+        margin-right: 8px;
+      }
+    }
+  }
+}
